@@ -33,7 +33,7 @@ namespace Tyuiu.GaitovaAA.Sprint6.Task0.V12
             }
         }
 
-        private void buttonHelp_GaitovaAA_Click(object sender, EventArgs e)
+        private void buttonHelp_GaitovaAA_Click(object sender, EventArgs e) 
         {
             MessageBox.Show("Таск 0 выполнила Гаитова А.А. группы ПКТб-26-1", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
