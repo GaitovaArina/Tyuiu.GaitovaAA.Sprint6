@@ -21,7 +21,7 @@ namespace Tyuiu.GaitovaAA.Sprint6.Task6.V30.Test
             File.WriteAllText(path, testData);
 
             string str = "";
-            string res = ds.CollectTextFromFile(str, path);
+            string res = ds.CollectTextFromFile(path);
             string wait = "четвертое слово4 финальное";
 
             Assert.AreEqual(wait, res);
